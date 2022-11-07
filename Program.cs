@@ -49,7 +49,7 @@ namespace ÖvningQueueueueue
                     Console.WriteLine($"{item.FirstName} is vaccinated\nLeft the hospital at {item.Departure}"); 
                 }
             }
-            Queue<Patient> drQ = new Queue<Patient>;
+            Queue<Patient> drQ = new Queue<Patient>();
             foreach (Patient item in PList)
             {
                 if (item.Disease == "Covid19")
