@@ -35,7 +35,7 @@ namespace ÖvningQueueueueue
             {
                 Console.WriteLine("Patient will die ");
             }
-            if (Departure != null)
+            if (Departure != DateTime.MinValue)
             {
                 Console.WriteLine($"Patient left the hospital at {Departure}.");
             }

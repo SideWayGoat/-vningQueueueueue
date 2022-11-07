@@ -63,7 +63,7 @@ namespace ÖvningQueueueueue
             }
             for (int i = drQ.Count; i > 0; i--)
             {
-                who.TreatPatient(drQ.Dequeue);
+                who.TreatPatient(drQ.Dequeue());
             }
             
             foreach (Patient item in PList)
