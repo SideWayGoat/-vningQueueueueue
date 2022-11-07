@@ -61,6 +61,15 @@ namespace ÖvningQueueueueue
                     drQ.Enqueue(item);
                 }
             }
+            for (int i = drQ.Count; i > 0; i--)
+            {
+                who.TreatPatient(drQ.Dequeue);
+            }
+            
+            foreach (Patient item in PList)
+            {
+                item.PrintInfo();
+            }
 
             Joy.CheckWorkTime();
         }

@@ -35,6 +35,10 @@ namespace ÖvningQueueueueue
             {
                 Console.WriteLine("Patient will die ");
             }
+            if (Departure != null)
+            {
+                Console.WriteLine($"Patient left the hospital at {Departure}.");
+            }
         }
     }
 }
