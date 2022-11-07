@@ -33,7 +33,7 @@ namespace ÖvningQueueueueue
             }
             else
             {
-                Console.WriteLine("Patient will die ");
+                Console.WriteLine("Patient will be admitted ");
             }
             if (Departure != DateTime.MinValue)
             {
